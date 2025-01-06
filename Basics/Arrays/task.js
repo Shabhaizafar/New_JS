@@ -10,14 +10,60 @@
 // 2. **Class Attendance:**
 //    - Use an array to store the names of students present in class.
 //    - Add new names dynamically and display the updated list.
+// var student = [];
+// while (1) {
+//     var ans = prompt("Enter Student Name : ");
+//     if(ans==null){
+//         break;
+//     }
+//     var Attendance = +prompt("Enter Presence : ");
+//     if(Attendance){
+//         student.push(ans);
+//         console.log(student);
+//     }
+// }
+
 
 // 3. **Weather Tracker:**
 //    - Store daily temperatures in an array.
 //    - Calculate the average temperature of the week.
+// var temp = [];
+// for (let i = 0; i < 7; i++) {
+//     temp.push(+prompt("Enter Temp : "));
+// }
+// console.log(temp);
+// var sum=0;
+// for (let i = 0; i < temp.length; i++) {
+//     sum+=temp[i];
+// }
+// console.log("Avg : ",sum/temp.length);
 
 // 4. **To-Do List Application:**
 //    - Create a to-do list array.
 //    - Allow users to mark tasks as completed (e.g., by removing them from the array).
+
+// var arr1 = [11,12,13,14,15,16];
+// while (1) {
+//     var arr2 = [];
+//     var ans = prompt(`${arr1}\n1.Add \n 2.Remove.\n\nEnter Your Choice : `);
+//     if(ans==null){
+//         console.log('Final Array : ',arr1);
+//         break;
+//     }
+//     else if(ans == 1){
+//         arr1.push(+prompt("Enter a Number : "));
+//     }
+//     else if(ans == 2){
+//         var num = +prompt("Enter Number :- ");
+//         for (let i = 0; i< arr1.length; i++){
+//             if(arr1[i] != num)
+//             {
+//                 arr2.push(arr1[i]);
+//             }
+//         }
+//         arr1 = arr2.concat();
+//     }
+// }
 
 // 5. **Exam Scores Analyzer:**
 //    - Store exam scores in an array.
@@ -33,12 +79,20 @@
 //    ```javascript
 //    const inventory = ['Apples', 'Oranges', 'Bananas'];
 //    const inventoryBackup = [...inventory]; // Clone using spread operator
+//    const a = inventory.concat();
+//    const b = inventory.slice();
+
+
+//    console.log(inventoryBackup);
+//    console.log(a);
+//    console.log(b);
+
 //    ```
 
-// 7. **Restore Default Settings:**
+// 7. **Restore Default Settings:**   // H.W
 //    - Clone a default settings array to allow resetting user settings to defaults.
 
-// 8. **Employee List Duplication:**
+// 8. **Employee List Duplication:**  // H.W
 //    - Clone an employee names array to preserve the original list while sorting the duplicate for reporting.
 
 // ---
@@ -64,9 +118,23 @@
 //     - Store product quantities in an array.
 //     - Use a `for-in` loop to calculate the total quantity of products.
 
+// var allData = [];
+// while (1){
+//     var value = +prompt("Howmuch Quantity : ");
+//     if(value==0)
+//         break;
+
+//     allData.push(value);
+// }
+// console.log(allData);
+// var totalQuan = 0;
+// for (const index in allData) {
+//     totalQuan+=allData[index];
+// }
+// console.log("Total : ",totalQuan);
 // ---
 
-// ##### **For-Of Loop**
+// ##### ** For-Of Loop **
 // 13. **Favorite Books:**
 //     - Create an array of favorite book titles.
 //     - Use a `for-of` loop to display each title.
