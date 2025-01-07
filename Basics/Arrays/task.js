@@ -150,13 +150,13 @@
 //     console.log(element);
 // }
 
-// var products = ["Choco","Cold Drink","Bag","Wafer","Paper"];
+var products = ["Choco","Cold Drink","Bag","Wafer","Paper"];
 // console.log(parseInt(Math.random()*products.length));
 // console.log(Math.floor(Math.random()*products.length));
+console.log(products);
+rn = products[parseInt(Math.random()*products.length)];
 
-// console.log(products[parseInt(Math.random()*products.length)]);
-
-// var price = prompt("Enter price of Bag : ");
+var price = prompt(`Enter Price of ${rn} := `);
 
 
 // 14. **Calculate Discounts:**
