@@ -138,6 +138,26 @@
 // 13. **Favorite Books:**
 //     - Create an array of favorite book titles.
 //     - Use a `for-of` loop to display each title.
+// var fvrtBooks = [];
+// while (1) {
+//     var t = prompt("Enter Book Title : ");
+//     if(t == null){
+//        break;
+//     }
+//     fvrtBooks.push(t);
+// }
+// for (const element of  fvrtBooks) {
+//     console.log(element);
+// }
+
+// var products = ["Choco","Cold Drink","Bag","Wafer","Paper"];
+// console.log(parseInt(Math.random()*products.length));
+// console.log(Math.floor(Math.random()*products.length));
+
+// console.log(products[parseInt(Math.random()*products.length)]);
+
+// var price = prompt("Enter price of Bag : ");
+
 
 // 14. **Calculate Discounts:**
 //     - Store product prices in an array.
