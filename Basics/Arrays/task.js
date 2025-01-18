@@ -150,13 +150,13 @@
 //     console.log(element);
 // }
 
-var products = ["Choco","Cold Drink","Bag","Wafer","Paper"];
-// console.log(parseInt(Math.random()*products.length));
-// console.log(Math.floor(Math.random()*products.length));
-console.log(products);
-rn = products[parseInt(Math.random()*products.length)];
+// var products = ["Choco","Cold Drink","Bag","Wafer","Paper"];
+// // console.log(parseInt(Math.random()*products.length));
+// // console.log(Math.floor(Math.random()*products.length));
+// console.log(products);
+// rn = products[parseInt(Math.random()*products.length)];
 
-var price = prompt(`Enter Price of ${rn} := `);
+// var price = prompt(`Enter Price of ${rn} := `);
 
 
 // 14. **Calculate Discounts:**
@@ -175,12 +175,24 @@ var price = prompt(`Enter Price of ${rn} := `);
 //     orders.forEach(order => console.log(order));
 //     ```
 
+
 // 16. **Employee Salary Update:**
 //     - Use `forEach` to iterate over an array of salaries and apply a raise to each employee.
 
 // 17. **Email Notification Sender:**
 //     - Store email addresses in an array.
 //     - Use `forEach` to send notifications to each email address.
+// var allMails = [];
+// while (1) {
+//     var t = prompt("Enter Your mail : ");
+//     if(t == null){
+//        break;
+//     }
+//     allMails.push(t);
+// }
+// allMails.forEach(element => {
+//     console.log(element);
+// });
 
 // ---
 
@@ -191,6 +203,20 @@ var price = prompt(`Enter Price of ${rn} := `);
 //       - Count responses.
 //       - Filter responses based on criteria.
 //       - Display results.
+
+var survey = [10,5,6,7.8,5,3.4,9.8];
+console.log(survey);
+console.log("Total Survay : ",survey.length);
+
+var n = 5;
+var filterdata = [];
+for (const element of survey) {
+    if(element>n)
+        filterdata.push(element);
+}
+console.log("Filter Data : ",filterdata);
+
+
 
 // 19. **Recipe Ingredient Checker:**
 //     - Store required ingredients in one array and available ingredients in another.
