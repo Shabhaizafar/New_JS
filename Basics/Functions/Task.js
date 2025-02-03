@@ -26,3 +26,23 @@
 // Expected Output : d,do,dog,o,og,g 
 
 
+// var ans = (str)=>{
+//     var arr = [];
+//     for (let i = 0; i < str.length; i++) {
+//         for (let j = 0; j < str.length; j++) {
+//             if(str.slice(i,j+1)!=''){
+//                 arr.push(str.slice(i,j+1));
+//             }
+//         }
+//     }
+//     console.log(arr.join(','));
+// }
+// ans("java");
+
+// console.log("Zafar".slice(0,0));
+
+
+// wap to swap string case .
+
+// ZaFar
+// zAfAR
