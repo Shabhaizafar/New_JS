@@ -63,13 +63,7 @@
 // console.log(ans3);
 
 
-// fill
-// sort 
-// every
-// some 
-// find
-// reduce
-// splice
+
 
 
 /*
