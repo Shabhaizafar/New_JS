@@ -83,7 +83,26 @@
 // Sorting Strings: Sort an array of strings alphabetically (case-sensitive).
 
 // Custom Sorting: Sort an array of objects based on a specific property (e.g., age, name).
-
+[
+    {name :"Raj",age : 12},
+    {name :"Ajay",age : 1},
+    {name :"Vijay",age : 20},
+    {name :"k",age : 15}
+]
+//age
+[
+    {name :"Ajay",age : 1},
+    {name :"Raj",age : 12},
+    {name :"k",age : 15},
+    {name :"Vijay",age : 20}
+]
+//name
+[
+    {name :"Ajay",age : 1},
+    {name :"k",age : 15},
+    {name :"Raj",age : 12},
+    {name :"Vijay",age : 20}
+]
 // Reverse Sorting: Sort an array of numbers in descending order using sort().
 
 ////////////////////////////
