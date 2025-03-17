@@ -3,6 +3,7 @@ function data(fname,lname,age) {
     this.fname = fname;
     this.lname = lname;
     this.age = age;
+    //return
 }
 
 data.prototype = {
