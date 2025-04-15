@@ -14,7 +14,7 @@
 
 // document.querySelector('span').innerText = "NewContent";
 
-// document.querySelector('span').textContent = "NewContent";
+// document.querySelector('span')[].textContent = "NewContent";
 
 
 // How to Add/Change Style Using a JS : 
